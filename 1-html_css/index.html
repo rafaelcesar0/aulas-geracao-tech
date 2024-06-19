@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; /* Inclui padding e border no cálculo da largura e altura */
+      }
+      div {
+        background-color: rgb(23, 29, 53);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;/* Alinha os itens à esquerda */
+        padding: 4px 10px;
+      }
+      h1 {
+        margin-left: 10px;
+        color: #fff;
+        display: inline-block;
+      }
+      ul {
+        padding-left: 0;
+        list-style: none;
+      }
+      a {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        padding: 8px 16px;
+        font-size: 17px;
+        display: inline-block;
+      }
+      li {
+        margin-left: 10px;
+        padding: 0px;
+        display: inline-block;
+        border-radius: 10px;
+      }
+      img {
+        padding: 0;
+        margin: 0;
+      }
+      #logo-h1 {
+        background-color: darkcyan;
+        border-radius: 10px;
+        padding: 0;
+        margin-right: 50px;
+      }
+      #logo-img {
+        height: 60px;
+      }
+      #logo-text {
+        font-size: 14px;
+        margin: 0;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: lighter;
+      }
+      .menu-top {
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+          sans-serif;
+        font-weight: bold;
+        font-size: 17x;
+        border-radius: 10px;
+        transition: background-color 0.5s ease;
+      }
+      a.menu-top:hover {
+        background-color: rgba(60, 255, 255, 0.233);
+      }
+      #login {
+        height: 30px;
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div>
+        <h1 id="logo-h1">
+          <a href="">
+            <img id="logo-img" src="./img/icons8-brain-64.png" alt="Logo Tech" />
+            <p id="logo-text">Tech Brasil</p>
+          </a>
+        </h1>
+        <ul style="list-style: none">
+          <li><a class="menu-top" href="">Celulares</a></li>
+          <li><a class="menu-top" href="">Notebooks</a></li>
+          <li><a class="menu-top" href="">Computadores</a></li>
+        </ul>
+      </div>
+
+      <a href=""
+        ><img id="login" src="img/icons8-user-96-white.png" alt="login"
+      /></a>
+    </div>
+  </body>
+</html>

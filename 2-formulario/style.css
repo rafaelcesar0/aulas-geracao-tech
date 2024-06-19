@@ -1,0 +1,29 @@
+form {
+  padding: 10px;
+  background-color: darkmagenta;
+  width: 300px;
+  margin: auto;
+  margin-top: 60%;
+  text-align: center;
+}
+label {
+  color: white;
+}
+input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+input:focus{
+  outline: none;
+}
+label, input {
+  margin: 5px 0 15px 0;
+}
+button {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+}
